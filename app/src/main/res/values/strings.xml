@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">TillFlow</string>
+
+    <!-- Catalogue -->
+    <string name="catalogue_title">Catalogue</string>
+    <string name="search_products">Search products</string>
+    <string name="all_categories">All</string>
+    <string name="no_products">No products match your search.</string>
+    <string name="in_stock">%1$d in stock</string>
+    <string name="low_stock">Low stock: %1$d left</string>
+    <string name="out_of_stock">Out of stock</string>
+    <plurals name="view_cart">
+        <item quantity="one">View cart · %1$d item · %2$s</item>
+        <item quantity="other">View cart · %1$d items · %2$s</item>
+    </plurals>
+
+    <!-- Cart -->
+    <string name="cart_title">Cart</string>
+    <string name="back">Back</string>
+    <string name="cart_empty">The cart is empty. Tap a product in the catalogue to add it.</string>
+    <string name="each_price">%1$s each</string>
+    <string name="decrease_quantity">Remove one %1$s</string>
+    <string name="increase_quantity">Add one more %1$s</string>
+    <string name="total">Total</string>
+    <string name="charge">Charge %1$s</string>
+    <string name="order_placed_title">Order #%1$d saved</string>
+    <string name="order_placed_body">The sale is recorded and stock has been updated.</string>
+    <string name="order_failed">Couldn\'t save the order. Please try again.</string>
+    <string name="done">Done</string>
+
+    <!-- Order history -->
+    <string name="order_history">Order history</string>
+    <string name="orders_empty">No orders yet. Completed sales will appear here.</string>
+    <string name="orders_load_failed">Couldn\'t load orders.</string>
+    <string name="retry">Retry</string>
+    <string name="order_number">Order #%1$d</string>
+    <plurals name="item_count">
+        <item quantity="one">%1$d item</item>
+        <item quantity="other">%1$d items</item>
+    </plurals>
+    <string name="synced">Synced</string>
+    <string name="not_synced">Not synced</string>
+    <string name="order_not_found">This order no longer exists.</string>
+    <string name="quantity_times_price">%1$d × %2$s</string>
+    <string name="sync_now">Sync now</string>
+    <string name="all_synced">All orders synced</string>
+    <plurals name="pending_sync">
+        <item quantity="one">%1$d order waiting to sync</item>
+        <item quantity="other">%1$d orders waiting to sync</item>
+    </plurals>
+</resources>

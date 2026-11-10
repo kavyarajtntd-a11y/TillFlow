@@ -1,0 +1,4 @@
+<resources>
+    <!-- The window theme only; colours and type come from Compose's MaterialTheme. -->
+    <style name="Theme.TillFlow" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
